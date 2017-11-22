@@ -1,1 +1,2 @@
-# ninja
+# ninja  
+`$hoge = 1`
