@@ -25,5 +25,4 @@ public class Sword {
 	public int getDamage() {
 		return damage;
 	}
-
 }

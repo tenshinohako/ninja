@@ -6,7 +6,8 @@ public class Armour {
 
 	public Armour(String name, int defence) {
 		// TODO 自動生成されたコンストラクター・スタブ
-
+		this.name = name;
+		this.defence = defence;
 	}
 
 	public void setName(String name) {
