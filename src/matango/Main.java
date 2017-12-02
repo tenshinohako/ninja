@@ -8,7 +8,7 @@ public class Main {
 		KingMatango king = new KingMatango("king", 100);
 		Hero hero = new Hero(100);
 
-		while(hero.getHp() >= 0) {
+		while(hero.getHp() > 0) {
 			king.attack(hero);
 		}
 	}
