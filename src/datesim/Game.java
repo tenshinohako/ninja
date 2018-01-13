@@ -41,9 +41,22 @@ public class Game {
 			System.out.println("2: 休む");
 			System.out.println("3: 好感度を見る");
 			try {
+				//入力のためのバッファ↓
 				InputStreamReader is = new InputStreamReader(System.in);
 				BufferedReader br = new BufferedReader(is);
-				String select = br.readLine();
+				//入力のためのバッファ↑
+				//おまじないと思ったらOK
+
+				/*
+				 * try{
+				 * 	やりたいこと
+				 * }catch(){
+				 * 	エラー処理
+				 * }
+				 * */
+
+				String select = br.readLine();//キーボードからの入力を受け付ける
+
 				if(select.equals("1")) {
 					star.plusHP(-10);
 					while(true) {
